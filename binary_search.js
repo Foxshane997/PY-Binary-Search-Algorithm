@@ -21,5 +21,5 @@ function binarySearch(data, el) {
 }
 
 const list = [5, 8, 14, 18, 22, 27, 34];
-console.log(binarySearch(list, 14));
-console.log(binarySearch(list, 12));
+console.log(binarySearch(list, 14)); // 14 is in the array output: True
+console.log(binarySearch(list, 12)); // 12 is not in the array output: False
